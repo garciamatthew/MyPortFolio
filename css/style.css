@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+  } 
+  
+ 
+  /*eto naman yung text sa logo*/
+  label.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50%; /* Add this line to make it circular */
+  }
+
+  /* this is for the logo na pic*/
+  .icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%; /* Add this line to make it circular */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    transition: transform 0.3s ease; /* Added transition property for smooth effect */
+  }
+ 
+  nav ul{
+    float: left;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-left: 30px;
+  }
+  
+  .icon:hover {
+    /* Add your hover styles here */
+    transform: scale(1.6); /* Scale up the image on hover */
+  }
+
+ 
+ 
+  section {
+    background: url(background.gif) no-repeat center center fixed; /* Replace 'your-background-image.jpg' with the actual path to your background image */
+    background-size: cover;
+    height: calc(550vh - 0px);
+    
+    
+   }
+
+  /*this is for the text inside the gif*/
+   /* home */
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  
+  /* Additional styling for the content */
+  .content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+/*to divide the site */ 
+  .division{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+    max-width: 3000px;
+    width: 100%;
+    box-sizing: border-box;
+    background:linear-gradient(45deg, rgba(255, 0, 0, 0.993), rgb(0, 0, 255)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 0; 
+
+  }
+
+  /*for content2 about me*/
+  .content2 {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  
+  /* Additional styling for the content */
+  .content2 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content2 p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  /* for content3  yung paragraph*/
+  .content3 {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    max-width: 1150px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.397), rgba(0, 0, 255, 0.384)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  .content3 p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+
+  .content3 img{
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .division2{
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+    max-width: 3000px;
+    width: 100%;
+    box-sizing: border-box;
+    background:linear-gradient(45deg, rgba(255, 0, 0, 0.993), rgb(0, 0, 255)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 0; 
+
+  }
+
+
+
+  /* for content 4  skills*/
+  .content4 {
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  
+  .content4 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content4 p {
+    
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+
+  /* for content5  skill paragraph*/
+
+  .content5 {
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    max-width: 1150px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.397), rgba(0, 0, 255, 0.384)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  
+  .content5 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content5 p {
+    
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .content5 img{
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .division3{
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+    max-width: 3000px;
+    width: 100%;
+    box-sizing: border-box;
+    background:linear-gradient(45deg, rgba(255, 0, 0, 0.993), rgb(0, 0, 255)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 0; 
+
+  }
+
+
+  /* for content 6  contacts*/
+  .content6 {
+    position: absolute;
+    top: 475%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  
+  .content6 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content6 p {
+    
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+
+  /* for content5  contacts paragraph*/
+
+  .content7 {
+    position: absolute;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 60px;
+    max-width: 490px;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.397), rgba(0, 0, 255, 0.384)); /* Replace with your desired mixed color */
+    color: #fff;
+    border-radius: 15px; /* Adjust the border-radius as needed for a smooth border */
+  }
+  
+  .content7 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .content7 p {
+    margin-left: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-end; /* Align to the right side of the container */
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+  .social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px; /* Adjust spacing between each social icon and text */
+  }
+  
+  .social-icon a {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    color: initial; /* Set color to initial to revert to default */
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon a:hover {
+    background: #29487d;
+  }
+  
+  .social-icon p {
+    margin-top: 5px;
+  }
+  
+  
+  
+
+  
+  
+/*footer*/
+  footer {
+    background: #1b9bff;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+}
